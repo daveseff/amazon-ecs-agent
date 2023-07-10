@@ -376,6 +376,12 @@ type Config struct {
 	// This defaults to the platform specific ephemeral host port range
 	DynamicHostPortRange string
 
+	// OverrideBridgeNetworkName is a custom bridge name used for docker container - it has to be created before an agent start
+	OverrideBridgeNetworkName string `trim:"true"`
+
+	// AddContainerNameAsNetworkAlias specifies whether container name should be added as network alias
+	AddContainerNameAsNetworkAlias BooleanDefaultTrue
+
 	// TaskPidsLimit specifies the per-task pids limit cgroup setting for each
 	// task launched on this container instance. This setting maps to the pids.max
 	// cgroup setting at the ECS task level.
