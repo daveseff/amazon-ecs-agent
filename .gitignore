@@ -1,6 +1,9 @@
 misc/certs
+<<<<<<< HEAD
 misc/plugins
 rootfs
+=======
+>>>>>>> 42bf9d3f7 (Add certs to gitignore)
 out/
 coverage/
 _bin/
