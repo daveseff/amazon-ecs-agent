@@ -1,4 +1,4 @@
-misc/certs/ca-certificates.crt
+misc/certs
 out/
 coverage/
 _bin/
