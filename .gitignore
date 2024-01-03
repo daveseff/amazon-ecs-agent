@@ -1,4 +1,6 @@
 misc/certs
+misc/plugins
+rootfs
 out/
 coverage/
 _bin/
